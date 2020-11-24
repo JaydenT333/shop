@@ -1,0 +1,40 @@
+.cards{
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20px;
+    right: 0px;
+}
+.card{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 1);
+}
+.card__image{
+    width: 100%;
+    display: block;
+    top: 10px;
+}
+.card__content{
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background-color:gold;
+    top: 10px;
+}
+.card__content> p:last-of-type{
+    margin-bottom: 0;
+}
+.card__info{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    background:#eeeeee;
+    font-size: 0.8em;
+    border-bottom: 2px solid #cccccc;
+}
+.card__info i  {
+    font-size: 0.9em;
+    margin-right: 8px;
+}
